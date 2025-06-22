@@ -32,6 +32,7 @@ print(data.head())
 
 
 🧹 Text Preprocessing
+
 Before training the models, the Indonesian Bible verses were preprocessed through:
 - Lowercasing
 - Removing punctuation and numbers
