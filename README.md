@@ -17,4 +17,16 @@ The dataset consists of Indonesian Bible verses labeled as either **PL** (Perjan
 
 - `Bible-Dataset/tb.csv` – full dataset
 
+🗃️ Dataset access
+Use this simple script:
+_
+import pandas as pd
+url  = "https://raw.githubusercontent.com/MarthenSS/Bible-Dataset/main/tb.csv"
+data = pd.read_csv(url)
+
+print(data.head())_
+
+You can also access it from your browser. Click the link below to see the raw data:
+[Raw Data CSV] (https://raw.githubusercontent.com/MarthenSS/Bible-Dataset/main/tb.csv)
+
 ---
