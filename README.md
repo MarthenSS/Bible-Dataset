@@ -30,4 +30,14 @@ print(data.head())
 - You can also access it from your browser. Click the link below to see the raw data:
   [Raw Data CSV] (https://raw.githubusercontent.com/MarthenSS/Bible-Dataset/main/tb.csv)
 
----
+
+🧹 Text Preprocessing
+Before training the models, the Indonesian Bible verses were preprocessed through:
+- Lowercasing
+- Removing punctuation and numbers
+- Tokenization using `nltk`
+- Stopword removal using a custom Indonesian stopword list
+
+📄 The stopword list is saved in: `Bible-Dataset/stopwordbahasa_new.csv`  
+This file contains an updated and curated list of common Indonesian stopwords based on previous works and adjusted for the biblical text context.
+
